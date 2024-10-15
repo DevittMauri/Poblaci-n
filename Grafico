@@ -1,0 +1,11 @@
+Aquí tienes la gráfica que muestra los datos 
+originales de la población de Bolivia, junto 
+con las interpolaciones de Newton y Lagrange.
+También se incluyen las estimaciones para el 
+año 2024, indicadas con puntos sobre la línea 
+de proyección.
+
+Las interpolaciones coinciden de forma cercana, 
+y se observa que ambos métodos estiman una 
+población ligeramente superior a las proyecciones 
+oficiales del INE para el año 2024. 

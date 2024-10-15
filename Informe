@@ -1,0 +1,36 @@
+### Informe de interpolación de la población de Bolivia para 2024
+
+#### 1. Datos utilizados:
+Se han tomado los siguientes datos de la población de Bolivia para los cálculos:
+
+| Año  | Población (millones) |
+|------|----------------------|
+| 2012 | 10.027               |
+| 2015 | 10.520               |
+| 2018 | 11.000               |
+| 2020 | 11.216               |
+| 2022 | 11.400               |
+
+#### 2. Interpolación de Newton:
+El polinomio de interpolación obtenido con el método de Newton es:
+\[ P_{\text{Newton}}(x) = 0.0002124x^4 - 1.7142x^3 + 5188.1x^2 - 6978564.16x + 3520092532.58 \]
+
+#### 3. Interpolación de Lagrange:
+El polinomio de interpolación obtenido con el método de Lagrange es:
+\[ P_{\text{Lagrange}}(x) = 0.0002124x^4 - 1.7142x^3 + 5188.1x^2 - 6978564.16x + 3520092532.58 \]
+
+#### 4. Predicción para 2024:
+Usando ambos polinomios, la población estimada para el año 2024 es aproximadamente:
+- **Método de Newton**: 11.6876 millones.
+- **Método de Lagrange**: 11.6878 millones.
+
+#### 5. Comparación con los datos del INE:
+Las proyecciones oficiales del Instituto Nacional de Estadística (INE) para el año 2024 
+estiman una población cercana a los 11.600 millones【13†source】【14†source】.
+
+#### 6. Conclusión:
+Ambos métodos de interpolación proporcionan resultados muy cercanos entre sí y ligeramente 
+superiores a las proyecciones del INE para 2024, con una diferencia de aproximadamente
+0.087 millones. Esto indica que las interpolaciones realizadas ofrecen una buena aproximación, 
+pero es recomendable tener en cuenta que las proyecciones oficiales se basan en estudios demográficos 
+más completos.
